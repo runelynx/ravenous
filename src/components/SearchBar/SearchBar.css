@@ -15,7 +15,7 @@
   color: #ffffff;
 }
 
-.SearchBar-black-options li {
+.SearchBar-sort-options li {
   cursor: pointer;
   width: 4.33rem;
   border-bottom: 1px solid #fff;
@@ -27,23 +27,23 @@
   transition: color .25s;
 }
 
-.SearchBar-black-options li hover {
+.SearchBar-sort-options li hover {
   color: #d4cfcf;
 }
 
-.SearchBar-black-options li.active,
+.SearchBar-sort-options li.active,
 .SearchBar-sort-options li.active:hover {
   border-bottom: 1px solid #f0c36c;
   color: #f0c36c;
 }
 
-.SearchBar fields {
+.SearchBar-fields {
   display: flex;
   justify-content: center;
   margin-bottom: 2.88rem;
 }
 
-.SearchBar fields input {
+.SearchBar-fields input {
   width: 21rem;
   padding: .66rem 1rem;
   margin-right: 2.22rem;
@@ -53,7 +53,7 @@
   font-weight: 500;
 }
 
-.SearchBar fields input last-child {
+.SearchBar-fields input last-child {
   margin-right: 0;
 }
 
@@ -85,12 +85,12 @@
     margin-right: 2rem;
   }
 
-  .SearchBar fields {
+  .SearchBar-fields {
     flex-direction: column;
     align-items: center;
   }
 
-  .SearchBar fields input {
+  .SearchBar-fields input {
     margin-right: 0;
     margin-bottom: .86rem;
   }
